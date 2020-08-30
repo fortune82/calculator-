@@ -1,0 +1,95 @@
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: rgb(143, 140, 140);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p {
+    margin: 10px 0 0 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.screenBlack {
+    background-color: #000;
+    width: 90%;
+    height: 120px;
+    margin: 40px auto 20px;
+    border: 1px solid #BDB76B;
+}
+
+.screen {
+    width: 90%;
+    height: 120px;
+    background-color: #8FBC8F;
+    margin: 40px auto 20px;
+    border: 1px solid #BDB76B;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 57px;
+    overflow: hidden;
+    text-align: right;
+    word-wrap: break-word;
+
+}
+
+.panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background-color: #FFDAB9;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 30px;
+    outline: none;
+}
+
+button:active {
+    background-color: #8FBC8F;
+}
+
+.topNavigation {
+    width: 98%;
+    height: 70px;
+    display: flex;
+    border: 1px solid #75735d;
+    justify-content: space-between;
+}
+
+.cancel {
+    width: 72%;
+}
+
+.switch {
+    width: 60px;
+    height: 60px;
+    border-radius: 15%;
+
+    font-size: 110%;
+    color: #fff;
+    background-color: rgb(252, 148, 52);
+}
+
+.switch:hover {
+    background-color: red;
+}
+
+.equally {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: rgb(241, 151, 151);
+}
+
+.operator {
+    background-color: rgb(92, 199, 241);
+}
