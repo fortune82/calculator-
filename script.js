@@ -19,6 +19,7 @@ for (i = 0; i < operatorBtn.length; i++) {
     })
 };
 
+
 equally.addEventListener('click', equallyFunc);
 
 function numberPress(number) {
