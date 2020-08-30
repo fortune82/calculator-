@@ -68,16 +68,17 @@ button:active {
 
 .cancel {
     width: 72%;
+    background-color: rgb(245, 248, 81);
 }
 
 .switch {
     width: 60px;
     height: 60px;
     border-radius: 15%;
-
-    font-size: 110%;
+    font-size: 100%;
     color: #fff;
     background-color: rgb(252, 148, 52);
+    word-wrap: break-word;
 }
 
 .switch:hover {
@@ -85,7 +86,6 @@ button:active {
 }
 
 .equally {
-    /* width: 45%; */
     margin-bottom: 20px;
     background-color: rgb(243, 104, 104);
 }
